@@ -1,0 +1,14 @@
+This program takes in input from the command line to process 5 page replacement algorithms.
+
+To run this program I used the terminal in linux with the following command from the directory the file named main.c is located:
+
+gcc -o a main.c
+
+Then ran the command in the terminal the integers should have single spaces between them, the first number is the number of frames
+the rest of the numbers are the pages:
+
+./a 3 0 1 5 5 5 0 2 3 4 1 1 9 9 10 0 2 1
+
+The program will run and you have the choice to select any of the 5 algorithms until you choose to exit. FIFO,OPTIMAL,LRU,LFU,MFU.
+
+
